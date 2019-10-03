@@ -1,15 +1,20 @@
 <?php
-spl_autoload_register(function ($class) {
-    if (file_exists("$class.php")) {
-        require_once ("$class.php");
-        return true;
-    }
-});
+// spl_autoload_register(function ($class) {
+//     if (file_exists("$class.php")) {
+//         require_once ("$class.php");
+//         return true;
+//     }
+// });
 
-use Config\Connection;
-use Entidades\Ingrediente;
-use Entidades\Receita;
-use Entidades\ReceitaIngrediente;
+require_once("Entidades\\Ingrediente.php");
+require_once("Entidades\\Receita.php");
+require_once("Entidades\\ReceitaIngrediente.php");
+require_once("Config\\Connection.php");
+
+// use Config\Connection;
+// use Entidades\Ingrediente;
+// use Entidades\Receita;
+// use Entidades\ReceitaIngrediente;
 
 $connection = Connection::GetConnection();
 
