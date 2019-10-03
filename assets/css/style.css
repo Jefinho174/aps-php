@@ -1,0 +1,125 @@
+* {
+    margin: auto;
+    padding: 0px;
+    font-family: arial
+}
+
+body {
+    background: #d6d6d6;
+}
+
+table.table-blank {
+    background-color: #FFF;
+}
+
+table.table-blank .blue {
+    background-color: #0d73a5;
+    color: #FFF;
+}
+
+header.main-header {
+    padding: 20px;
+    position: fixed;
+    background: #0d73a5;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    z-index: 1001;
+}
+
+footer.main-footer {
+    position: fixed;
+    bottom: 0px;
+    background: #FFF;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+footer.main-footer input[type="text"] {
+    margin-left: 20px;
+    width: 60%;
+    padding: 10px;
+    border-right: 5px;
+    border-radius: 5px;
+    border: none;
+    background: #CCC;
+    outline: none;
+}
+
+article.main-content {
+    padding-top: 85px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 75px;
+}
+
+footer.main-footer button {
+    margin-left: 5px;
+    padding: 10px;
+    background: #447d4b;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+footer.main-footer button:active {
+    background: #769c7f;
+}
+
+span.line {
+    overflow: hidden;
+    display: block;
+    margin-bottom: 5px;
+}
+
+span.line p {
+    color: #444;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    max-width: 43%
+}
+
+p.to {
+    background: white;
+    float: right;
+}
+
+p.from {
+    background: #c2e0b9;
+    float: left;
+}
+
+.lnav {}
+
+ul.lnav {}
+
+ul.lnav li {
+    list-style: none;
+}
+
+ul.lnav li a {
+    display: block;
+    background: white;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid silver;
+}
+
+ul.lnav li a:hover {
+    background: rgba(251, 228, 67, 0.55);
+}
+
+ul.lnav li a:active {
+    background: rgba(245, 216, 12, 0.57);
+}
